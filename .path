@@ -4,10 +4,9 @@ export PATH="/Applications/MAMP/bin/php/php5.5.23/bin:$PATH"
 # Add Composer
 PATH="$HOME/.composer/vendor/bin:$PATH"
 
-# Ruby version manager
+# Add RVM to PATH for scripting and load RVM into a shell session *as a function*
 export PATH="$PATH:$HOME/.rvm/bin"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-# Load RVM into a shell session *as a function*
 
 # Node version manager
 export NVM_DIR="$HOME/.nvm"
