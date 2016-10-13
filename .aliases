@@ -140,6 +140,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
-alias mysql="/Applications/MAMP/Library/bin/mysql"
-alias mysqldump="/Applications/MAMP/Library/bin/mysqldump"
-alias php="/Applications/MAMP/bin/php/php5.5.23/bin/php"
+alias mmysql="/Applications/MAMP/Library/bin/mysql"
+alias mmysqldump="/Applications/MAMP/Library/bin/mysqldump"
+alias mphp="/Applications/MAMP/bin/php/php5.5.23/bin/php"
