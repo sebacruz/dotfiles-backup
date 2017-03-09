@@ -62,7 +62,7 @@ else
     set wildignore+=.git\*,.hg\*,.svn\*
 endif
 
-"Always show current position
+" Always show current position
 set ruler
 
 " Height of the command bar
@@ -129,16 +129,6 @@ endif
 " Enable syntax highlighting
 syntax enable
 
-try
-    colorscheme onedark
-
-    set g:onedark_termcolors=16
-    set g:onedark_terminal_italics=1
-catch
-endtry
-
-set background=dark
-
 " Set extra options when running in GUI mode
 if has("gui_running")
     set guioptions-=T
@@ -152,6 +142,10 @@ set encoding=utf8
 
 " Use Unix as the standard file type
 set ffs=unix,dos,mac
+
+set background=dark
+"let base16colorspace=256
+colorscheme base16-onedark
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
