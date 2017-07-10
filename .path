@@ -8,10 +8,6 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
-# Add RVM to PATH for scripting and load RVM into a shell session *as a function*
-export PATH="$PATH:$HOME/.rvm/bin"
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
 # Add PHPBrew
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
 
@@ -20,3 +16,7 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Add yarn
 export PATH="$HOME/.yarn/bin:$PATH"
+
+# Add RVM to PATH for scripting and load RVM into a shell session *as a function*
+export PATH="$HOME/.rvm/bin:$PATH"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
